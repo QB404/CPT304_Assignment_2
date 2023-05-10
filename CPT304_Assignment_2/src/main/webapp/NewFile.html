@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Holiday System</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="MyJS.js"></script>
+        <style>
+            pre { background-color:rgb(238, 231, 231); outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+            .string { color: rgb(22, 10, 126); }
+            .number { color: rgb(13, 214, 124); }
+            .boolean { color: rgb(225, 97, 195); }
+            .null { color: rgb(172, 167, 14); }
+            .key { color: #cf4914; }
+            #myDiv { background-image: url("https://img.1ppt.com/uploads/allimg/2011/1_201122165100_1.jpg");}
+        </style>
+    </head>
+    <body>
+        <div id="myDiv">
+            <label id="currenttime" style="color: #AC2925; "></label>
+           
+            <p id="notice" style="color:#b0a117fa"> Recommendede Option: Colombia-Acacias-"2023-05-22""Ascension Day"</p>
+            <p id="result" style="color:#b0a117fa"></p>
+            <p id="colist" style="color:#b0a117fa"></p>
+            <p id="citylist" style="color:#b0a117fa"></p>
+            <p id= "holidaylist" style="color:#b0a117fa"></p>
+            <p id="weather"   style="color:#b0a117fa"></p>
+            <p id="hotelresult" style="color:#b0a117fa"></p>
+            <button type="button"  onclick="init()" id="convertlist">Start</button>
+            
+            <pre id="jsonresult" class="pre"></pre>
+        </div>
+    </body>
+</html>
